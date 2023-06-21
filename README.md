@@ -39,4 +39,4 @@ for now I have none and do not require one
 
 #### UML
 
-Link to an image of the UML for your application and response to events
+![RESTy UML](./assets/resty-uml.png)
