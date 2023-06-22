@@ -5,7 +5,7 @@ function Header() {
 
   return (
     <header>
-      <h1>RESTy</h1>
+      <h1 data-testid='test-header'>RESTy</h1>
     </header>
   );
 

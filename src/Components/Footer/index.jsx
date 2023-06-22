@@ -4,7 +4,7 @@ import './Footer.scss';
 function Footer() {
   return (
 
-    <footer>&copy; 2018</footer>
+    <footer data-testid='test-footer'>&copy; 2023 Kao Saelor</footer>
 
   );
 }
