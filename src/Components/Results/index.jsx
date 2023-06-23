@@ -7,11 +7,11 @@ let JSONPrettyMon = require('react-json-pretty/dist/adventure_time');
 function Results(props) {
 
   return (
-    <section>
+    <section data-testid="test-results">
       {
         props.loading
           ? <div >LOADING....</div>
-          : <pre data-testid="test-results">{props.data ? <JSONPretty id="json-pretty" theme={JSONPrettyMon} data={props.data} /> : null}</pre>
+          : <pre >{props.data ? <JSONPretty id="json-pretty" theme={JSONPrettyMon} data={props.data} /> : null}</pre>
       }
     </section>
   );
