@@ -96,9 +96,9 @@ for now I have none and do not require one
 
 ![State UML](./assets/useState-uml.png)
 
-# LAB - Class 27
+# LAB - Class 28
 
-## Project: useState hooks
+## Project: Component Lifecycle / useEffect() Hook
 
 ### Problem Domain  
 
@@ -129,7 +129,7 @@ Application Flow:
 
 #### `.env` requirements (where applicable)
 
-for now I have none and do not require one
+None
 
 
 #### How to initialize/run your application (where applicable)
@@ -149,4 +149,4 @@ for now I have none and do not require one
 
 #### UML
 
-![State UML]()
+![State UML](./assets/useEffect-Hook-uml.png)
