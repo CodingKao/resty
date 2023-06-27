@@ -10,13 +10,12 @@ function Results(props) {
     <section data-testid="test-results">
       {
         props.loading
-          ? <div >LOADING....</div>
+          ? <div >WAITING FOR SEARCH START or LOADING....</div>
           : <pre >{props.data ? <JSONPretty id="json-pretty" theme={JSONPrettyMon} data={props.data} /> : null}</pre>
       }
     </section>
   );
 
 }
-
 
 export default Results;
